@@ -30,6 +30,7 @@ hs_err_pid*
 .idea/misc.xml
 .idea/vcs.xml
 ecommerce.iml
+./target
 target/classes/application.properties
 target/ecommerce-0.0.1-SNAPSHOT.jar.original
 target/maven-archiver/pom.properties
