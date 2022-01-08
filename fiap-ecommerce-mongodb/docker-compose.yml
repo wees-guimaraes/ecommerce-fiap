@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongo-db
+    ports:
+      - "27017:27017"
+    networks:
+      - fiap-compose-network
+
+networks:
+  fiap-compose-network:
