@@ -2,8 +2,7 @@ package br.com.fiap.app.config;
 
 import br.com.fiap.app.domain.*;
 import br.com.fiap.app.repositories.*;
-import dev.luanfernandes.app.domain.*;
-import dev.luanfernandes.app.repositories.*;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
