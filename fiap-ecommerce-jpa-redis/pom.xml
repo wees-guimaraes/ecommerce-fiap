@@ -8,7 +8,7 @@
         <version>2.6.1</version>
         <relativePath/>
     </parent>
-    <groupId>dev.luanfernandes</groupId>
+    <groupId>br.com.fiap</groupId>
     <artifactId>fiap-ecommerce-jpa-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>fiap ecommerce jpa redis</name>
