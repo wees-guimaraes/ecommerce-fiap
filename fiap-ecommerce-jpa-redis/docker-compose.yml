@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis
+    container_name: redis-server
+    restart: unless-stopped
+    command: redis-server --requirepass fiap123
+    ports:
+      - "6379:6379"
+    networks:
+      - fiap-compose-network
+
+networks:
+  fiap-compose-network:
